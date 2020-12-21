@@ -1,0 +1,684 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('../assets/background.png');
+    background-size: contain;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --JustAnotherHanddisplay: "Bradley Hand";
+    --LovedByTheKing: "Loved by the King";
+    --Sniglet-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.877);
+    --filter_text: "Open Sans Semibold";
+}
+
+
+
+
+
+
+.primary-btn {
+    border-radius: 30px;
+    border-color: #F6855A;
+    background-color: none;
+    font-weight: bold;
+    color: #F6855A;
+    font-family: "Proxima Nova";
+    font-weight: 400;
+}
+
+/********** section 1 **************/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+.pencil {
+    font-family: var(--LovedByTheKing);
+    font-size: 130px !important;
+    text-align: center;
+    transform: rotate(-356.1deg);
+    margin: auto 0;
+    color: black;
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+
+}
+
+.learn more {
+    align-content: center;
+    width: 400px !important;
+}
+
+.start-pincel {
+    padding: 1vmin;
+    letter-spacing: 4px;
+    text-align: left;
+    font-family: var(--JustAnotherHanddisplay);
+    font-size: 20px;
+    color: black;
+}
+
+.pencil-par {
+    margin: 0 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.pincel-div {
+    background-image: url("../assets/p_background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: static;
+
+}
+
+
+.text-white {
+    align-content: center;
+}
+
+
+.section-1 {
+    padding: 20vmin 0vmin;
+}
+
+.section-1 .row .col-md-6 .pray img {
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6:last-child {
+    position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/*  Section 2  */
+
+.cover {
+    width: 100%;
+    height: 55vmin;
+    position: relative;
+}
+
+.cover .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+.cover .content {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 19vmin;
+}
+
+.cover .content > h1 {
+    font-family: var(--Patua);
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+
+.cover .content > p {
+    font-family: var(--Rubik);
+    font-size: 2vmin;
+    color: #e5e5e5;
+}
+
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+}
+
+.numbers {
+    margin-top: -15vmin;
+}
+
+.numbers .rect h1 {
+    font-size: 5rem;
+    color: tomato;
+}
+
+.numbers .rect > p {
+    font-family: var(--Patua);
+}
+
+.purchase > h1 {
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+
+}
+
+.purchase > p {
+    color: var(--light-black);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+}
+
+.purchaseBtn {
+    margin-bottom: 30px;
+}
+
+.purchaseBtn:hover {
+    background-color: #F6855A;
+    color: white;
+}
+
+.purchase .cards .card {
+    width: 22rem;
+
+    margin: 3vmin 3vmin;
+}
+
+.cards div {
+    padding: 0;
+    margin: 0;
+}
+
+.cards .title {
+
+    padding: 1.4em 2.5em;
+    font-size: 2vmin;
+}
+
+.card .card-text {
+    font-weight: bolder;
+
+    padding: 2.5rem;
+    color: var(--light-black);
+}
+
+.card-body .pricing {
+
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+}
+
+.card-body .pricing > h1 {
+    font-weight: 700;
+    font-size: 9vmin;
+    margin-top: 200px;
+    padding: 1em 0.5em;
+    color: #662F5B;
+}
+
+
+.about-par {
+    font-size: 25px;
+    margin-bottom: 90px;
+}
+
+.card1 {
+
+    background-image: url("../src/icon.png");
+
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+
+.card2 {
+
+    background-image: url("../src/lightroom.jpg");
+
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+
+.card3 {
+    background-image: url("../src/adobe-photoshop-for-ipad_8tqj.1920.jpg.webp");
+
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Section 3 */
+
+.section-3 {
+    height: 70vmin;
+    margin-top: 15vmin;
+
+}
+
+.section-3 .col-md-12 > h1 {
+    padding: 2em 0 0.5em 0;
+    color: whitesmoke;
+    font-size: 6vmin;
+}
+
+.section-3 .col-md-12 > p {
+    padding: 0 4em;
+    padding-bottom: 2em;
+    color: var(--light-gray);
+    font-size: 3vmin;
+}
+
+
+.section-3 .desktop {
+    background: white;
+    display: inline-block;
+    border-radius: 3em;
+    padding: 2vmin 4.5vmin;
+    margin: 1em;
+}
+
+.section-3 .desktop h3 {
+    font-size: 4vmin;
+}
+
+.section-3 .desktop p {
+    font-size: 2vmin;
+}
+
+.ccontainer-item {
+    position: relative;
+}
+
+/* Section Team */
+
+.section-4 .container-item h1 {
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+
+.section-4 .team {
+    padding: 10vmin 4vmin;
+}
+
+.section-4 .card {
+    width: 22em;
+    margin-top: 10vmin;
+}
+
+
+.section-4 .card .card-text {
+    padding: 0.5em;
+}
+
+.section-4 .card-body > a {
+    font-size: 1.5em;
+}
+
+.section-4 .carousel-item {
+    padding-left: 3rem;
+}
+
+.border-radius {
+    border-radius: 340px;
+    width: 60%;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer p > span {
+    color: #ff512f;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+
+    border: none;
+}
+
+footer .column i {
+    color: #dd2476;
+}
+
+/* It is Adjacent sibling combinator */
+
+footer .column i + i {
+    padding: 0 0.5em;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
+
+
+
+
+
+
+
+
+.filter-btn {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    cursor: none;
+    font-size: 20px;
+    color: black;
+    font-family: var(--filter_text);
+    margin-bottom: 50px !important;
+    position: relative;
+
+}
+
+
+.filter-text {
+    text-align: left;
+    font-size: 20px;
+    font-family: var(--filter_text)
+}
+
+.category-filter {
+    margin-top: 15px;
+    display: block
+}
+
+
+
+.categroy-col-icon-circle {
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    margin-left: 90%;
+
+}
+
+.categroy-col {
+    float: left;
+    padding: 10px;
+    height: 60px;
+
+}
+
+.filter-tap:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.Category-filter {
+    height: 120px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+
+    width: 960px;
+}
+
+.product-card {
+    width: 400px;
+    background: #ecedef;
+    padding: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.product-card h1 {
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+.product-card p {
+    font-size: 13px;
+    color: #bbb;
+}
+
+.product-pic {
+    background-image: url(1.png);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .6s linear;
+}
+
+.product-colors {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-colors span {
+    width: 14px;
+    height: 14px;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.blue {
+    background: #7ed6df;
+}
+
+.green {
+    background: #badc58;
+}
+
+.yellow {
+    background: #f9ca24;
+}
+
+.rose {
+    background: #ff7979;
+}
+
+.product-colors .active:after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border: 2px solid #8888;
+    position: absolute;
+    border-radius: 50%;
+    box-sizing: border-box;
+    left: -4px;
+    top: -4px;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+}
+
+.product-price {
+    color: #7ed6df;
+    font-size: 26px;
+}
+
+.product-button {
+    margin-left: auto;
+    color: #7ed6df;
+    text-decoration: none;
+    border: 2px solid;
+    padding: 8px 24px;
+    border-radius: 20px;
+    transition: .4s linear;
+}
+
+.product-button:hover {
+    transform: scale(1.06);
+}
+
+.photo {
+    padding: 20px
+}
+
+
+.contact-form {
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+
+.contact-form .form-control {
+    border-radius: 1rem;
+}
+
+.contact-image {
+    text-align: center;
+}
+
+.contact-image img {
+    border-radius: 6rem;
+
+    margin-top: -3%;
+
+}
+
+.contact-form form {
+    padding: 14%;
+}
+
+.contact-form form .row {
+    margin-bottom: -7%;
+}
+
+.contact-form h3 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+.card-right {
+    float: left;
+}
